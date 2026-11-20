@@ -1,0 +1,8 @@
+﻿"nombre_variable","etiqueta","descripcion","tipo_dato","unidad","valores_validos","valores_faltantes"
+"bloque","Bloque","Bloque experimental de la parcela","Categórico (factor)","No aplica","1, 2, 3, 4","No admite valores faltantes"
+"parcela","Parcela","Identificador de la parcela","Texto","No aplica","Código de tres dígitos, único","No admite valores faltantes"
+"cobertura","Cobertura","Tipo de cobertura; Barbecho es el control","Categórico (factor)","No aplica","Avena; Multiespecies; Barbecho","No admite valores faltantes"
+"terminacion","Terminación","Forma de terminación; el barbecho no tiene terminación","Categórico (factor)","No aplica","Pastoreo; Incorporación; Corte y retiro; Sin terminación","No admite valores faltantes"
+"amonio_mg_kg","Amonio disponible","Amonio (NH₄⁺) disponible en el suelo, por parcela","Numérico","mg/kg","> 0 y ≤ 20","Admite NA (se codifica como NA)"
+"nitrato_mg_kg","Nitrato disponible","Nitrato (NO₃⁻) disponible en el suelo, por parcela","Numérico","mg/kg","> 0 y ≤ 30","Admite NA (se codifica como NA)"
+"lixiviacion_nitrato_kgN_ha","Lixiviación de nitrato","Pérdida de nitrato (NO₃⁻) por lixiviación, por parcela","Numérico","kg N/ha","> 0 y ≤ 50","Admite NA (se codifica como NA)"

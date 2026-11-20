@@ -1,0 +1,8 @@
+﻿"cobertura","terminacion","n_parcelas","parcelas"
+"Multiespecies","Pastoreo",4,"101, 209, 309, 402"
+"Multiespecies","Incorporación",4,"102, 208, 308, 403"
+"Multiespecies","Corte y retiro",4,"103, 207, 307, 401"
+"Avena","Pastoreo",4,"104, 203, 304, 407"
+"Avena","Corte y retiro",4,"105, 201, 306, 409"
+"Avena","Incorporación",4,"106, 202, 305, 408"
+"Barbecho","Sin terminación",12,"107, 108, 109, 204, 205, 206, 301, 302, 303, 404, 405, 406"
