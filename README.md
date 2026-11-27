@@ -67,7 +67,7 @@ Este proyecto evalúa el manejo integrado de dos cultivos de cobertura, avena y 
 
 <p align="justify">
 
-Los datos usados en este proyecto **no son mediciones reales, fueron simulados con Inteligencia Artificial**, Por motivos de confidencialidad y protección de los datos originales de mi investigación doctoral.
+Los datos usados en este proyecto **no son mediciones reales, fueron simulados con Inteligencia Artificial**, por motivos de confidencialidad y protección de los datos originales de mi investigación doctoral.
 
 </p>
 
@@ -88,7 +88,7 @@ Los datos usados en este proyecto **no son mediciones reales, fueron simulados c
 - Tratamientos: avena y multiespecies, cada una con pastoreo, incorporación y corte y retiro (4 parcelas por combinación), y barbecho control (12 parcelas, 3 por bloque).
 - Variables: amonio disponible (mg/kg), nitrato disponible (mg/kg) y lixiviación de nitrato (kg N/ha).
 - Valores del barbecho con más nitrato lixiviado y menos amonio y nitrato en el suelo que los de las coberturas.
-- Valores de las multiespecies con menor lixiviación que los de la avena, y menor lixiviación con incorporación y pastoreo que con corte y retiro.
+- Valores de las multiespecies con menor lixiviación que los de la avena.
 - Valores positivos, con un decimal, sin datos ausentes.
 
 </p>
@@ -122,7 +122,6 @@ Criterios para los valores:
 
 ## 3. Diccionario de Datos
 
-Se genera en el script `04_crear_diccionario_validar_datos.R` y se guarda en `diccionario_validacion/01_diccionario.csv`.
 
 | nombre_variable | etiqueta | descripcion | tipo_dato | unidad | valores_validos | valores_faltantes |
 |---|---|---|---|---|---|---|
@@ -158,7 +157,6 @@ Los rangos de aceptación fueron establecidos a partir de los valores reportados
 
 ## 4. Validación de Datos
 
-Los controles se aplican en el mismo script `04_crear_diccionario_validar_datos.R`, a partir de las reglas del diccionario, y se guardan en `diccionario_validacion/02_validacion_datos.csv`. Los controles "Informativo" solo informan sin invalidar los datos.
 
 | variable | control | criterio | n_revisados | n_casos | resultado | detalle |
 |---|---|---|---|---|---|---|
@@ -305,7 +303,7 @@ Ambas relaciones son inversas. Esto es coherente con que las parcelas con cobert
 
 - Con los datos simulados, los cultivos de cobertura reducen la lixiviación de nitrato frente al barbecho, y retienen más amonio y nitrato en el suelo. 
 - La mezcla de multiespecies (leguminosas, gramíneas y brasicáceas) controla mejor la lixiviación que la avena sola, y además aporta más nitrógeno mineral disponible en el suelo. 
-- La forma de terminación del cultivo de cobertura influye directamente en la disponinibilidad de nitrógeno y la lixiviación de nitrato. La incorporación y el pastoreo devuelven el nitrógeno al sistema y mantienen niveles menores de lixiviación que el corte y retiro. 
+- La forma de terminación del cultivo de cobertura influye directamente en la disponibilidad de nitrógeno y la lixiviación de nitrato. La incorporación y el pastoreo devuelven el nitrógeno al sistema y mantienen niveles     menores de lixiviación que el corte y retiro. 
 - La lixiviación se relaciona de forma inversa con el amonio y el nitrato disponibles en el suelo. 
 - Como los datos son simulados y no se hicieron pruebas inferenciales entre tratamientos, estas conclusiones son una demostración del flujo de análisis. Para sustentar un efecto real se necesitan datos medidos en campo y un análisis estadístico acorde con el diseño en bloques.
 
@@ -343,7 +341,7 @@ cobertura-terminacion-nitrogeno/
 │   ├── 04_crear_diccionario_validar_datos.R        # Diccionario y validación
 │   ├── 05_analisis_promedio_desviacion.R           # Promedios y desviaciones estándar
 │   ├── 06_relacion_nitrato_lixiviacion.R           # Regresiones lineales
-│   └── 07_graficos.R                               # Figuras con ggplot2
+│   └── 07_figuras.R                                # Figuras con ggplot2
 ├── tablas/
 │   ├── 01_datos_anidados.csv                       # Datos agrupados y anidados por tratamiento
 │   ├── 02_promedio_desviacion_estandar.csv         # Promedio y desviación estándar por tratamiento
@@ -431,7 +429,7 @@ Los resultados, las interpretaciones y las decisiones del proyecto fueron revisa
 
 - Garnier, S., Ross, N., Rudis, B., Sciaini, M., Camargo, A. P., y Scherer, C. (2024). *viridis: Colorblind-Friendly Color Maps for R* (versión 0.6.5) [Paquete de R]. CRAN. https://doi.org/10.32614/CRAN.package.viridis
 - Müller, K. *here: A Simpler Way to Find Your Files* [Paquete de R]. CRAN. https://CRAN.R-project.org/package=here
-- Nuñez, J. R., Anderton, C. R., y Renslow, R. S. (2018). Optimizing colormaps with consideration for color vision deficiency to enable accurate interpretation of scientific data. *PLOS ONE, 13*(7), e0199239. https://doi.org/10.1371/journal.pone.0199239
+- Nuñez, J. R., Anderton, C. R., y Renslow, R. S. (2018). Optimizing colormaps with consideration for color vision deficiency to enable accurate interpretation of scientific data. *PLOS ONE, 13*(7), e0199239.   https://doi.org/10.1371/journal.pone.0199239
 - R Core Team. *R: A language and environment for statistical computing*. R Foundation for Statistical Computing, Viena, Austria. https://www.R-project.org/
 - Ushey, K., y Wickham, H. *renv: Project Environments* [Paquete de R]. CRAN. https://doi.org/10.32614/CRAN.package.renv
 - Wickham, H. (2016). *ggplot2: Elegant Graphics for Data Analysis*. Springer-Verlag. https://ggplot2.tidyverse.org
