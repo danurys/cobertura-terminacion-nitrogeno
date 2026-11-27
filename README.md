@@ -23,7 +23,7 @@
 2. [Datos](#datos)
 3. [Diccionario de Datos](#diccionario)
 4. [Validación de Datos](#validacion)
-5. [Metodología o Procedimiento](#metodologia)
+5. [Metodología](#metodologia)
 6. [Resultados](#resultados)
    - [6.1 Amonio y nitrato disponibles en el suelo](#res1)
    - [6.2 Lixiviación de nitrato](#res2)
