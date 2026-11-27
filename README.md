@@ -54,7 +54,7 @@ Este proyecto evalúa el manejo integrado de dos cultivos de cobertura, avena y 
 </p>
 
 <p align="center">
-  <img src="figuras/05_campo_coberteras.jpg" alt="Campo con cultivos de cobertura" width="620">
+  <img src="figuras/05_campo_coberturas.jpeg" alt="Campo con cultivos de cobertura" width="620">
 </p>
 
 [Volver al índice](#indice)
